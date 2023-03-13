@@ -1,11 +1,36 @@
-var a = 232;
+let myDOM = document; // es un objeto global
 
-let b = 120; // let arranca...desde ES6
+let name = "firulais";
 
-let myDOM = document; // 
+const myDog = {
+    name: "firulais"
+};
 
-console.log(myDOM);
+const myCat = {
+    "name": "kyti"
+};
 
-let myApp = document.getElementById("myApp");
+console.log(myDog.name);
+console.log(myCat.name);
 
-myApp.innerHTML = "Estoy modificando mi placeholder"
+class Mouse {
+    constructor(name, age) {
+        this.name= name;
+        this.age= age;
+
+
+    }
+}
+
+const myMouse = new Mouse ("Perez", 4);
+
+class Buttom{
+    constructor(parenID, text) {
+
+    }
+
+    render(){
+
+    }
+    
+}
