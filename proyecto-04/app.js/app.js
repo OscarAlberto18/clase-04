@@ -36,7 +36,7 @@ class Button {
         // completa this.text
     }
 
-    // Invente yo diseño mio...
+    
     render(){
         let myApp = document.getElementById(this.parentID);
 
@@ -49,8 +49,8 @@ class Button {
 
 // Construir el objeto boton
 // y llamar al metodo render de ese objeto.
-//let myButon = new Button("app", "Login magico....");
-//myButon.render();
+let myButon = new Button("app", "confirmar");
+myButon.render();
 
 //let myButon2 = new Button("app", "Signup..");
 //myButon2.render();
@@ -75,13 +75,13 @@ class Input {
     }   
 }
 
-let myInput = new Input("footer", "checkbox");
+let myInput = new Input("footer", "text");
 myInput.render();
 
-let myInput2 = new Input("footer", "date");
+/*let myInput2 = new Input("footer", "date");
 myInput2.render();
 
 let myInput3 = new Input("footer", "password");
 myInput3.render();
 
-let mySuperArrayofStrings = ["Login" , "Signup" , "Reset" ];
+let mySuperArrayofStrings = ["Login" , "Signup" , "Reset" ];*/
